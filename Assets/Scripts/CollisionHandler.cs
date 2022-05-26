@@ -27,9 +27,7 @@ public class CollisionHandler : MonoBehaviour {
             case "Finish":
                 NexLevelSequence();
                 break ;
-            case "Fuel":
-                Debug.Log("You picked up fuel!");
-                break;
+
             default:
                 {
                     StartCrashSequences();
